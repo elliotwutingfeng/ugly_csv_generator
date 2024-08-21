@@ -26,6 +26,7 @@ jobs:
         python-version: 3.9
 
     - name: Install Language Pack
+      if: matrix.os == 'ubuntu-latest'
       run: sudo apt-get install -y language-pack-it
 
     - name: Install dependencies
