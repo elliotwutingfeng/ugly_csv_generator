@@ -21,3 +21,5 @@ coverage.xml
 *.egg-info
 test.csv
 build
+dist
+test_readme.py
